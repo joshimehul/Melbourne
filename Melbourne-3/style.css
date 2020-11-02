@@ -1,0 +1,81 @@
+body
+{
+    background:#30323c;
+    
+}
+
+div 
+{
+    color: white;
+}
+* 
+{
+    margin: 0;
+    padding:0;
+}
+
+
+.tagName
+{
+    height: 150%;
+    width: 60%;
+}
+
+.comments
+{
+    height: 150%;
+    width: 60%;
+}
+
+.button {
+    background-color: #b82a2a;
+    border-radius: 10px;
+    border: 2px solid #F2AA4CFF;
+    padding: 20px; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+form 
+{
+    margin-top:50px;
+}
+
+#fname 
+{
+    height: 120%;
+    width: 50%;
+}
+
+.mainHeading
+{
+    margin-top: 50px; 
+    font-family: 'Alegreya', serif;
+   font-size: 400%;   
+}
+p
+{
+    font-size: 25px;
+}
+
+#form1
+{
+    background-color: #F2AA4CFF;
+    border-radius: 25px;
+     border: 2px solid #000000;
+    padding: 20px; 
+
+}
+h4
+{
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 250%;
+}
+
