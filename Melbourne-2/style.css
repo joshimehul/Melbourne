@@ -1,3 +1,9 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
     background:#30323c;
@@ -17,13 +23,19 @@ div
 {
     height: 150%;
     width: 60%;
+    padding: 0% 2%;
+    border-radius: 5px;
 }
 
 .comments
 {
     height: 150%;
     width: 60%;
+    padding: 0% 2%;
+    border-radius: 5px;
 }
+
+
 
 .button {
     background-color: #b82a2a;
@@ -38,15 +50,20 @@ div
     cursor: pointer;
   }
 
-form 
+#selfInfoBoundBox
 {
     margin-top:50px;
+    border: 2px solid orangered;
+    padding: 5% 0%;
+    border-radius: 5px;
 }
 
-#fname 
+.selfInfo
 {
-    height: 120%;
-    width: 50%;
+    width: 70%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .mainHeading
@@ -58,3 +75,33 @@ p
     font-size: 25px;
 }
 
+.whitehr
+{
+    background: orangered;
+    height: 1.4%;
+    border-radius: 2px;
+}
+
+.box
+{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    padding: 5% 0%;
+}
+
+.box hr 
+{
+    background: white;
+    width: 70%;
+}
+
+#info 
+{
+    font-size: 95%;
+    font-weight: bold;
+}
+
+#selfInfoDesc
+{
+    line-height: 150%;
+}
