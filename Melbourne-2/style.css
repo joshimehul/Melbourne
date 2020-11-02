@@ -105,3 +105,12 @@ p
 {
     line-height: 150%;
 }
+
+.trash
+{
+    height: 120%;
+    right: 13%;
+    top: 20%;
+    transform: traslateY(-50%);
+    position: absolute;
+}
