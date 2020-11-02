@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    
     <title>City of Melbourne</title>
 </head>
 <body>
@@ -30,13 +30,23 @@
         </div>
         <form id="form1">
             <div class="row" align="center" style="margin-top:30px;">
+                
                 <div class="col-md-6" style="margin-top:30px;">
+                    <h2 id="rankHead">Ranks</h2>
                     <h2>Tags</h2>
                 </div>
                 <div class="col-md-6 .d-none .d-md-block .d-lg-none" style="margin-top:30px">
                     <h2>Comments</h2>
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
+                    <select name="tag1rank" id="tag1rank" class="ranks">
+                        <option value="" selected>N/A</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                     <input list="tags" name="tag1" id="tag1" name="tag1" class="tagName" placeholder="Hashtag1">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px">
@@ -45,6 +55,14 @@
                 </div>
                 
                 <div class="col-sm-6" style="margin-top:30px;">
+                    <select name="tag2rank" id="tag2rank" class="ranks">
+                        <option value="" selected>N/A</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                     <input list="tags" name="tag2" id="tag2" name="tag2" class="tagName" placeholder="Hashtag2">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
@@ -52,6 +70,14 @@
                     <img src="Images/trash.svg" id="2" alt="clear" onclick="ClearContent(this.id)" class="trash">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
+                    <select name="tag3rank" id="tag3rank" class="ranks">
+                        <option value="" selected>N/A</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                     <input list="tags" name="tag3" id="tag3" name="tag3" class="tagName" placeholder="Hashtag3">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
@@ -59,6 +85,14 @@
                     <img src="Images/trash.svg" id="3" alt="clear" onclick="ClearContent(this.id)" class="trash">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
+                    <select name="tag4rank" id="tag4rank" class="ranks">
+                        <option value="" selected>N/A</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                     <input list="tags" name="tag4" id="tag4" class="tagName" name="tag4" placeholder="Hashtag4">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
@@ -66,6 +100,14 @@
                     <img src="Images/trash.svg" id="4" alt="clear" onclick="ClearContent(this.id)" class="trash">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
+                    <select name="tag5rank" id="tag5rank" class="ranks">
+                        <option value="" selected>N/A</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                     <input list="tags" name="tag5" id="tag5" class="tagName" name="tag5" placeholder="Hashtag5">
                 </div>
                 <div class="col-sm-6" style="margin-top:30px;">
@@ -94,6 +136,11 @@
                     <option value="#MoreHotspot">
                     <option value="#AcknowledgeAboriginalIdentity">
                     <option value="#MoreMinorityRights">
+                </datalist>
+                <datalist id="ranks" class="rankList" name="rankList">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
                 </datalist>
             </div>
         
@@ -141,7 +188,7 @@
             </div>
         </form>
     </div>
-
+<script src="index.js"></script>
 <script>
     $(".tagName").blur(function() {
         var hashTag = $(this).val();
@@ -160,6 +207,7 @@
             
         }
     });
+
 </script>
 </body>
 </html>

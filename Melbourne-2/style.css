@@ -114,3 +114,19 @@ p
     transform: traslateY(-50%);
     position: absolute;
 }
+
+#rankHead 
+{
+    position: absolute;
+    
+}
+
+.ranks
+{
+    position: absolute;
+    left: 4%;
+    height: 125%;
+    width: 12%;
+    border-radius: 5px;
+    background: white;
+}
