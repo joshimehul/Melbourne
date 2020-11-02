@@ -1,0 +1,60 @@
+body
+{
+    background:#30323c;
+    
+}
+
+div 
+{
+    color: white;
+}
+* 
+{
+    margin: 0;
+}
+
+.tagName
+{
+    height: 150%;
+    width: 60%;
+}
+
+.comments
+{
+    height: 150%;
+    width: 60%;
+}
+
+.button {
+    background-color: #b82a2a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+form 
+{
+    margin-top:50px;
+}
+
+#fname 
+{
+    height: 120%;
+    width: 50%;
+}
+
+.mainHeading
+{
+    margin-top: 50px;   
+}
+p
+{
+    font-size: 25px;
+}
+
